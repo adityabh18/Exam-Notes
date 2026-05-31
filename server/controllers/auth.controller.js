@@ -4,6 +4,7 @@ import UserModel from "../models/user.model.js";
 
 export const googleAuth=async (req,res)=>{
     try {
+        console.log(req.body);
         const {name,email}=req.body;
         let user=await UserModel.findOne({email})
         if(!user){
