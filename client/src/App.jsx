@@ -8,7 +8,7 @@ import History from './pages/History.jsx'
 import Notes from './pages/Notes.jsx'
 import Pricing from './pages/Pricing.jsx'
 
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://exam-notes-server-6c4x.onrender.com"
 function App() {
   const dispatch=useDispatch()
   useEffect(()=>{
